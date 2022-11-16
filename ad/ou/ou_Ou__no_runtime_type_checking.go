@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package ou
 
@@ -54,6 +53,14 @@ func (o *jsiiProxy_Ou) validateOverrideLogicalIdParameters(newLogicalId *string)
 }
 
 func validateOu_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateOu_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateOu_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 

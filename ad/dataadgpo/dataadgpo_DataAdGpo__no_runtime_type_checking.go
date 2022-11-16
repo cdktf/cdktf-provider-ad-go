@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package dataadgpo
 
@@ -54,6 +53,14 @@ func (d *jsiiProxy_DataAdGpo) validateOverrideLogicalIdParameters(newLogicalId *
 }
 
 func validateDataAdGpo_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataAdGpo_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataAdGpo_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 

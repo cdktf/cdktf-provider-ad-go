@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package dataadou
 
@@ -54,6 +53,14 @@ func (d *jsiiProxy_DataAdOu) validateOverrideLogicalIdParameters(newLogicalId *s
 }
 
 func validateDataAdOu_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataAdOu_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataAdOu_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 

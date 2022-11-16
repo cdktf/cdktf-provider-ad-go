@@ -2,10 +2,10 @@ package dataaduser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-ad-go/ad/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-ad-go/ad/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-ad-go/ad/dataaduser/internal"
+	"github.com/cdktf/cdktf-provider-ad-go/ad/v2/dataaduser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -777,6 +777,44 @@ func DataAdUser_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-ad.dataAdUser.DataAdUser",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataAdUser_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataAdUser_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-ad.dataAdUser.DataAdUser",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataAdUser_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataAdUser_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-ad.dataAdUser.DataAdUser",
+		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
 	)

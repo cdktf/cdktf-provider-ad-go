@@ -2,10 +2,10 @@ package gpo
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-ad-go/ad/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-ad-go/ad/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-ad-go/ad/gpo/internal"
+	"github.com/cdktf/cdktf-provider-ad-go/ad/v2/gpo/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -580,6 +580,44 @@ func Gpo_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-ad.gpo.Gpo",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func Gpo_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateGpo_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-ad.gpo.Gpo",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func Gpo_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateGpo_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-ad.gpo.Gpo",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

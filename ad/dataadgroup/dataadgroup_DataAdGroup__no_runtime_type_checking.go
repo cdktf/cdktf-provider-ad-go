@@ -1,5 +1,4 @@
 //go:build no_runtime_type_checking
-// +build no_runtime_type_checking
 
 package dataadgroup
 
@@ -54,6 +53,14 @@ func (d *jsiiProxy_DataAdGroup) validateOverrideLogicalIdParameters(newLogicalId
 }
 
 func validateDataAdGroup_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataAdGroup_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataAdGroup_IsTerraformElementParameters(x interface{}) error {
 	return nil
 }
 

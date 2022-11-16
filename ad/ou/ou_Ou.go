@@ -2,10 +2,10 @@ package ou
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-ad-go/ad/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-ad-go/ad/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-ad-go/ad/ou/internal"
+	"github.com/cdktf/cdktf-provider-ad-go/ad/v2/ou/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -580,6 +580,44 @@ func Ou_IsConstruct(x interface{}) *bool {
 	_jsii_.StaticInvoke(
 		"@cdktf/provider-ad.ou.Ou",
 		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func Ou_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateOu_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-ad.ou.Ou",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func Ou_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateOu_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktf/provider-ad.ou.Ou",
+		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
 	)

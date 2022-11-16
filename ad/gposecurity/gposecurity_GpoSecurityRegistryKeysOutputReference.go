@@ -2,9 +2,9 @@ package gposecurity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-ad-go/ad/jsii"
+	_init_ "github.com/cdktf/cdktf-provider-ad-go/ad/v2/jsii"
 
-	"github.com/cdktf/cdktf-provider-ad-go/ad/gposecurity/internal"
+	"github.com/cdktf/cdktf-provider-ad-go/ad/v2/gposecurity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
