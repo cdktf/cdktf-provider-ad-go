@@ -1,4 +1,4 @@
-module github.com/cdktf/cdktf-provider-ad-go/ad/v7
+module github.com/cdktf/cdktf-provider-ad-go/ad/v6
 
 go 1.18
 
