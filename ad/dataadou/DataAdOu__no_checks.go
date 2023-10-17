@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAdOu) validateOverrideLogicalIdParameters(newLogicalId *s
 	return nil
 }
 
+func validateDataAdOu_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateDataAdOu_IsConstructParameters(x interface{}) error {
 	return nil
 }

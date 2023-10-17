@@ -7,6 +7,10 @@ package gposecurity
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (g *jsiiProxy_GpoSecurity) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (g *jsiiProxy_GpoSecurity) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,7 +51,15 @@ func (g *jsiiProxy_GpoSecurity) validateGetStringMapAttributeParameters(terrafor
 	return nil
 }
 
+func (g *jsiiProxy_GpoSecurity) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (g *jsiiProxy_GpoSecurity) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GpoSecurity) validateMoveToParameters(moveTarget *string, index interface{}) error {
 	return nil
 }
 
@@ -100,6 +112,10 @@ func (g *jsiiProxy_GpoSecurity) validatePutSystemLogParameters(value *GpoSecurit
 }
 
 func (g *jsiiProxy_GpoSecurity) validatePutSystemServicesParameters(value interface{}) error {
+	return nil
+}
+
+func validateGpoSecurity_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

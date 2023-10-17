@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAdGroup) validateOverrideLogicalIdParameters(newLogicalId
 	return nil
 }
 
+func validateDataAdGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateDataAdGroup_IsConstructParameters(x interface{}) error {
 	return nil
 }

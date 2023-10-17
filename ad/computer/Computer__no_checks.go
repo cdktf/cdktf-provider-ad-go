@@ -7,6 +7,10 @@ package computer
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (c *jsiiProxy_Computer) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_Computer) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,11 +51,23 @@ func (c *jsiiProxy_Computer) validateGetStringMapAttributeParameters(terraformAt
 	return nil
 }
 
+func (c *jsiiProxy_Computer) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (c *jsiiProxy_Computer) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
+func (c *jsiiProxy_Computer) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_Computer) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func validateComputer_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 

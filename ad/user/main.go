@@ -14,6 +14,7 @@ func init() {
 		"@cdktf/provider-ad.user.User",
 		reflect.TypeOf((*User)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "cannotChangePassword", GoGetter: "CannotChangePassword"},
 			_jsii_.MemberProperty{JsiiProperty: "cannotChangePasswordInput", GoGetter: "CannotChangePasswordInput"},
@@ -75,6 +76,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "homePhoneInput", GoGetter: "HomePhoneInput"},
 			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
 			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "importFrom", GoMethod: "ImportFrom"},
 			_jsii_.MemberProperty{JsiiProperty: "initialPassword", GoGetter: "InitialPassword"},
 			_jsii_.MemberProperty{JsiiProperty: "initialPasswordInput", GoGetter: "InitialPasswordInput"},
 			_jsii_.MemberProperty{JsiiProperty: "initials", GoGetter: "Initials"},
@@ -83,6 +85,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
 			_jsii_.MemberProperty{JsiiProperty: "mobilePhone", GoGetter: "MobilePhone"},
 			_jsii_.MemberProperty{JsiiProperty: "mobilePhoneInput", GoGetter: "MobilePhoneInput"},
+			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberProperty{JsiiProperty: "office", GoGetter: "Office"},
 			_jsii_.MemberProperty{JsiiProperty: "officeInput", GoGetter: "OfficeInput"},

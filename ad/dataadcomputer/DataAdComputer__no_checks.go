@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAdComputer) validateOverrideLogicalIdParameters(newLogica
 	return nil
 }
 
+func validateDataAdComputer_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
 func validateDataAdComputer_IsConstructParameters(x interface{}) error {
 	return nil
 }

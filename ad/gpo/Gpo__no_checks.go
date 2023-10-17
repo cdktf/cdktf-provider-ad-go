@@ -7,6 +7,10 @@ package gpo
 
 // Building without runtime type checking enabled, so all the below just return nil
 
+func (g *jsiiProxy_Gpo) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
 func (g *jsiiProxy_Gpo) validateAddOverrideParameters(path *string, value interface{}) error {
 	return nil
 }
@@ -47,11 +51,23 @@ func (g *jsiiProxy_Gpo) validateGetStringMapAttributeParameters(terraformAttribu
 	return nil
 }
 
+func (g *jsiiProxy_Gpo) validateImportFromParameters(id *string) error {
+	return nil
+}
+
 func (g *jsiiProxy_Gpo) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
 	return nil
 }
 
+func (g *jsiiProxy_Gpo) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_Gpo) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func validateGpo_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
 
