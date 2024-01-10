@@ -59,7 +59,15 @@ func (g *jsiiProxy_Gplink) validateInterpolationForAttributeParameters(terraform
 	return nil
 }
 
+func (g *jsiiProxy_Gplink) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
 func (g *jsiiProxy_Gplink) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_Gplink) validateMoveToIdParameters(id *string) error {
 	return nil
 }
 
